@@ -1,0 +1,132 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio de John Paulin JEUDI</title> 
+    
+    <link rel="stylesheet" href="css/css.css"> 
+</head> 
+<body> 
+ 
+<header> 
+    <div class="logo">Portfolio de John Paulin</div>
+    <nav> 
+    <ul> 
+        <li><a href="#accueil">Accueil</a></li> 
+        <li><a href="#apropos">À propos</a></li> 
+        <li><a href="#competences">Competences</a></li> 
+        <li><a href="#projets">Projets</a></li> 
+        <li><a href="#contact">Contact</a></li> 
+    </ul> 
+    </nav> 
+</header> 
+ 
+<main> 
+    
+<section id="accueil"> 
+      <h1>Developpeur web</h1>
+      <p>Passionné par le web, le design et l’écoconception, 
+    j’aime concevoir des interfaces modernes et responsables. 
+    Curieux et ouvert sur le monde, je puise aussi mon inspiration 
+    dans la culture et le tourisme, pour créer des expériences 
+    numériques qui racontent une histoire.</p> 
+    </section> 
+        
+    <section id="apropos">
+      <h2>À propos de moi</h2> 
+      <div class="about-container"> 
+      <img src="assets/images/jjp509.png" alt="Photo de profil de John Paulin J." width="200">
+      <p>Étudiant à l'université d'État d'Haiti, je me spécialise dans la science comptable, le patrimoine et tourisme. Je suis également étudiant à D-CLIC, je me spécialise dans le développement web. Rigoureux et engagé, j'allie mes compétences techniques à mes expériences en gestion de projets et en coordination d'équipe pour créer des interfaces web, accessibles et performantes.</p> 
+      </div>
+      <div class="cta-container"> 
+      <a href="assets/CVJJP.pdf" class="btn" download>Télécharger mon CV en PDF</a>  
+      <a href="#projets" class="btn">Voir mes projets</a> 
+      </div> 
+    </section> 
+ 
+    <section id="competences"> 
+      <h2>Mes Compétences</h2> 
+      <div class="skills-grid"> 
+      <div class="skills-category"> 
+      <h3>Compétences Techniques</h3> 
+    <ul> 
+        <li>Apprentissage en autodidacte des bases du HTML et du CSS.</li> 
+        <li>CSS3 et JavaScript</li> 
+        <li>Capable d'apprendre de nouveaux outils technologiques de manière autonome.</li>
+        <li>Bonne utilisation des ordinateurs et gestion des fichiers.</li>
+    </ul> 
+      </div> 
+
+      <div class="skills-category"> 
+                
+      <h3>Gestion et Qualité</h3>
+    <ul> 
+        <li>Écoconception</li> 
+        <li>Gestion d'équipe et Logistique</li> 
+    </ul> 
+      </div> 
+      </div> 
+    </section> 
+
+    <section id="projets"> 
+      <h2>Mes Projets</h2> 
+      <div class="projects-grid"> 
+        <article class="project-card"> 
+      <h3>Patrimoine et tourisme d'Haïti</h3> 
+      <p>Une page web optimisée pour la vitesse de chargement et le respect de l'environnement.</p> 
+        <a href="projects/Projet01/Synthese.html" class="btn-link">Voir le projet</a> 
+        </article> 
+
+        <article class="project-card"> 
+      <h3>Validation de Formulaire JS</h3> 
+      <p>Dynamisation d'une interface utilisateur avec JavaScript pour la vérification de données en temps réel.</p> 
+        <a href="projects/Projet02/dom_basics.html" class="btn-link">Voir le projet</a>        
+        </article> 
+
+        <article class="project-card"> 
+      <h3>Produits du terroir haïtien.</h3> 
+      <p>Une plateforme optimisée, dédiée à la valorisation des produits du terroir haïtien.</p>
+        <a href="projects/Projet03/Exercice3.html" class="btn-link">Voir le projet</a> 
+        </article> 
+      </div> 
+    </section> 
+ 
+    
+    <section id="contact">
+      <h2>Me Contacter</h2>
+
+    <h3>Travaillons ensemble</h3>
+      <p>Vous avez un projet en tête ? Envoyez-moi un message, je vous répondrai sous 48 heures ouvrables.</p>
+    <form id="contactForm">
+    <div class="form-group">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <div id="formFeedback"></div>
+
+    <button type="submit" class="btn">Cliquez pour envoyer</button>
+    </form>
+    </section>
+
+    </main> 
+ 
+    <footer> 
+        <p>@Juillet 2026 - Portfolio de John Paulin JEUDI.  Tous droits réservés.</p> 
+    </footer> 
+ 
+    <script src="js.js"></script> 
+   
+</body> 
+</html>
